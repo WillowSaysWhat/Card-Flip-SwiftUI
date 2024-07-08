@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA849442C3BE33600ACFB4A /* FlipACardSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA849432C3BE33600ACFB4A /* FlipACardSwiftUIApp.swift */; };
+		0BA849462C3BE33600ACFB4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA849452C3BE33600ACFB4A /* ContentView.swift */; };
+		0BA849482C3BE33700ACFB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA849472C3BE33700ACFB4A /* Assets.xcassets */; };
+		0BA8494B2C3BE33700ACFB4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8494A2C3BE33700ACFB4A /* Preview Assets.xcassets */; };
+		0BA849552C3BE33700ACFB4A /* FlipACardSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA849542C3BE33700ACFB4A /* FlipACardSwiftUITests.swift */; };
+		0BA8495F2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8495E2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.swift */; };
+		0BA849612C3BE33700ACFB4A /* FlipACardSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA849602C3BE33700ACFB4A /* FlipACardSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BA849512C3BE33700ACFB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA849382C3BE33500ACFB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA8493F2C3BE33500ACFB4A;
+			remoteInfo = FlipACardSwiftUI;
+		};
+		0BA8495B2C3BE33700ACFB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA849382C3BE33500ACFB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA8493F2C3BE33500ACFB4A;
+			remoteInfo = FlipACardSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA849402C3BE33600ACFB4A /* FlipACardSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipACardSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA849432C3BE33600ACFB4A /* FlipACardSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipACardSwiftUIApp.swift; sourceTree = "<group>"; };
+		0BA849452C3BE33600ACFB4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BA849472C3BE33700ACFB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BA8494A2C3BE33700ACFB4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BA849502C3BE33700ACFB4A /* FlipACardSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipACardSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA849542C3BE33700ACFB4A /* FlipACardSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipACardSwiftUITests.swift; sourceTree = "<group>"; };
+		0BA8495A2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipACardSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA8495E2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipACardSwiftUIUITests.swift; sourceTree = "<group>"; };
+		0BA849602C3BE33700ACFB4A /* FlipACardSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipACardSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA8493D2C3BE33500ACFB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA8494D2C3BE33700ACFB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA849572C3BE33700ACFB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA849372C3BE33500ACFB4A = {
+			isa = PBXGroup;
+			children = (
+				0BA849422C3BE33600ACFB4A /* FlipACardSwiftUI */,
+				0BA849532C3BE33700ACFB4A /* FlipACardSwiftUITests */,
+				0BA8495D2C3BE33700ACFB4A /* FlipACardSwiftUIUITests */,
+				0BA849412C3BE33600ACFB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA849412C3BE33600ACFB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA849402C3BE33600ACFB4A /* FlipACardSwiftUI.app */,
+				0BA849502C3BE33700ACFB4A /* FlipACardSwiftUITests.xctest */,
+				0BA8495A2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA849422C3BE33600ACFB4A /* FlipACardSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0BA849432C3BE33600ACFB4A /* FlipACardSwiftUIApp.swift */,
+				0BA849452C3BE33600ACFB4A /* ContentView.swift */,
+				0BA849472C3BE33700ACFB4A /* Assets.xcassets */,
+				0BA849492C3BE33700ACFB4A /* Preview Content */,
+			);
+			path = FlipACardSwiftUI;
+			sourceTree = "<group>";
+		};
+		0BA849492C3BE33700ACFB4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0BA8494A2C3BE33700ACFB4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BA849532C3BE33700ACFB4A /* FlipACardSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA849542C3BE33700ACFB4A /* FlipACardSwiftUITests.swift */,
+			);
+			path = FlipACardSwiftUITests;
+			sourceTree = "<group>";
+		};
+		0BA8495D2C3BE33700ACFB4A /* FlipACardSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA8495E2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.swift */,
+				0BA849602C3BE33700ACFB4A /* FlipACardSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = FlipACardSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA8493F2C3BE33500ACFB4A /* FlipACardSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA849642C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUI" */;
+			buildPhases = (
+				0BA8493C2C3BE33500ACFB4A /* Sources */,
+				0BA8493D2C3BE33500ACFB4A /* Frameworks */,
+				0BA8493E2C3BE33500ACFB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipACardSwiftUI;
+			productName = FlipACardSwiftUI;
+			productReference = 0BA849402C3BE33600ACFB4A /* FlipACardSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BA8494F2C3BE33700ACFB4A /* FlipACardSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA849672C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUITests" */;
+			buildPhases = (
+				0BA8494C2C3BE33700ACFB4A /* Sources */,
+				0BA8494D2C3BE33700ACFB4A /* Frameworks */,
+				0BA8494E2C3BE33700ACFB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA849522C3BE33700ACFB4A /* PBXTargetDependency */,
+			);
+			name = FlipACardSwiftUITests;
+			productName = FlipACardSwiftUITests;
+			productReference = 0BA849502C3BE33700ACFB4A /* FlipACardSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BA849592C3BE33700ACFB4A /* FlipACardSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA8496A2C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUIUITests" */;
+			buildPhases = (
+				0BA849562C3BE33700ACFB4A /* Sources */,
+				0BA849572C3BE33700ACFB4A /* Frameworks */,
+				0BA849582C3BE33700ACFB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA8495C2C3BE33700ACFB4A /* PBXTargetDependency */,
+			);
+			name = FlipACardSwiftUIUITests;
+			productName = FlipACardSwiftUIUITests;
+			productReference = 0BA8495A2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA849382C3BE33500ACFB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0BA8493F2C3BE33500ACFB4A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0BA8494F2C3BE33700ACFB4A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0BA8493F2C3BE33500ACFB4A;
+					};
+					0BA849592C3BE33700ACFB4A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0BA8493F2C3BE33500ACFB4A;
+					};
+				};
+			};
+			buildConfigurationList = 0BA8493B2C3BE33500ACFB4A /* Build configuration list for PBXProject "FlipACardSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BA849372C3BE33500ACFB4A;
+			productRefGroup = 0BA849412C3BE33600ACFB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA8493F2C3BE33500ACFB4A /* FlipACardSwiftUI */,
+				0BA8494F2C3BE33700ACFB4A /* FlipACardSwiftUITests */,
+				0BA849592C3BE33700ACFB4A /* FlipACardSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA8493E2C3BE33500ACFB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA8494B2C3BE33700ACFB4A /* Preview Assets.xcassets in Resources */,
+				0BA849482C3BE33700ACFB4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA8494E2C3BE33700ACFB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA849582C3BE33700ACFB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA8493C2C3BE33500ACFB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA849462C3BE33600ACFB4A /* ContentView.swift in Sources */,
+				0BA849442C3BE33600ACFB4A /* FlipACardSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA8494C2C3BE33700ACFB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA849552C3BE33700ACFB4A /* FlipACardSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA849562C3BE33700ACFB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA8495F2C3BE33700ACFB4A /* FlipACardSwiftUIUITests.swift in Sources */,
+				0BA849612C3BE33700ACFB4A /* FlipACardSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA849522C3BE33700ACFB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA8493F2C3BE33500ACFB4A /* FlipACardSwiftUI */;
+			targetProxy = 0BA849512C3BE33700ACFB4A /* PBXContainerItemProxy */;
+		};
+		0BA8495C2C3BE33700ACFB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA8493F2C3BE33500ACFB4A /* FlipACardSwiftUI */;
+			targetProxy = 0BA8495B2C3BE33700ACFB4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA849622C3BE33700ACFB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BA849632C3BE33700ACFB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA849652C3BE33700ACFB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipACardSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA849662C3BE33700ACFB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipACardSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BA849682C3BE33700ACFB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipACardSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlipACardSwiftUI";
+			};
+			name = Debug;
+		};
+		0BA849692C3BE33700ACFB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipACardSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlipACardSwiftUI";
+			};
+			name = Release;
+		};
+		0BA8496B2C3BE33700ACFB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipACardSwiftUI;
+			};
+			name = Debug;
+		};
+		0BA8496C2C3BE33700ACFB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94WNU99F48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WillowSaysWhat.FlipACardSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipACardSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA8493B2C3BE33500ACFB4A /* Build configuration list for PBXProject "FlipACardSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA849622C3BE33700ACFB4A /* Debug */,
+				0BA849632C3BE33700ACFB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA849642C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA849652C3BE33700ACFB4A /* Debug */,
+				0BA849662C3BE33700ACFB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA849672C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA849682C3BE33700ACFB4A /* Debug */,
+				0BA849692C3BE33700ACFB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA8496A2C3BE33700ACFB4A /* Build configuration list for PBXNativeTarget "FlipACardSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA8496B2C3BE33700ACFB4A /* Debug */,
+				0BA8496C2C3BE33700ACFB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BA849382C3BE33500ACFB4A /* Project object */;
+}
