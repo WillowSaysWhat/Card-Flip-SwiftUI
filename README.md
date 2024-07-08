@@ -121,11 +121,11 @@ struct ContentView: View {
             
             
             RoundedRectangle(cornerRadius: 15) // this shape is hidden because it is at 90 degrees.
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.blue)
                 .frame(width: width, height: height)
                 .rotation3DEffect(
                     .degrees(isFlipped ? 0 : -90),
-                     axis: /*@START_MENU_TOKEN@*/(x: 0.0, y: 1.0, z: 0.0)/*@END_MENU_TOKEN@*/ // the rotation is on the y-axis
+                     axis: (x: 0.0, y: 1.0, z: 0.0) // the rotation is on the y-axis
                 ).animation(isFlipped ? .linear(duration: 0.15).delay(0.35) : .linear, value: isFlipped)
                
                 
@@ -136,7 +136,7 @@ struct ContentView: View {
                 .frame(width: width, height: height)
                 .rotation3DEffect( // this is the front 90 degrees in the card flip
                     .degrees(isFlipped ? 90 : 0),
-                    axis: /*@START_MENU_TOKEN@*/(x: 0.0, y: 1.0, z: 0.0)/*@END_MENU_TOKEN@*/
+                    axis: (x: 0.0, y: 1.0, z: 0.0)
                 ).animation(isFlipped ? .linear : .linear(duration: 0.15).delay(0.35), value: isFlipped)
                 
             
