@@ -12,6 +12,7 @@ This is a beginner animation that flips a card by a tap gesture. It is 2 separat
 - [Contents](#contents)
 - [Code Breakdown](#code-breakdown)
 - [The Whole Code](#the-whole-code)
+- [Back to Top](#back-to-top)
 
 # Code Breakdown
 
@@ -150,9 +151,7 @@ struct ContentView: View {
 }
 
 ```
-<<<<<<< HEAD
 
 [Back to Top](#contents)
 =======
 [Back to Top](#contents)
->>>>>>> 0b1ea4386ae1025509d0417c5e2d5418d42a3aa5
